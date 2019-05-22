@@ -6,6 +6,7 @@
 GITHUB_PREFIX = 'https://raw.githubusercontent.com/williamsdoug/CTG_RP/master/src/'
 GITHUB_DEFAULT_SRC_FILES = [
     'basic_denoise.py',
+    'ctg_utils.py',
     'test.py',  # used for test purposes only, TODO:  Delete after development complete
     ]
 
