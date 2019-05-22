@@ -186,7 +186,9 @@ def get_valid_segments(orig_hr, ts, recno, max_change=25, verbose=False, verbose
         plt.show()
 
     i_start = find_valid_start(orig_hr)
-    assert i_start is not None
+
+    if i_start is None:
+        return []
 
     orig_hr = orig_hr[i_start:]
     sig_hr = np.copy(orig_hr)
