@@ -8,7 +8,9 @@ This Repo contains Jupyter Notebooks and code to reproduce the results of the pa
 Key Jupyter Notebooks (_currently configured to run on Google Colab per below_):
 - [CTG_RP_Startup_Config](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Startup_Config.ipynb)
   - Initializes fresh colab instance, downloading source files, packages and dataset
-
+- [CTG_RP_Generate_Recurrence_Plots](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Generate_Recurrence_Plots.ipynb)
+  - Creates individual RP Images
+  - _IMAGES_DIR/rp_images_index.json_ contains metadata associated with images for each recording
 
 Other Helper Notebooks:
 - [CTG_RP_Display_Denoised](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Display_Denoised.ipynb)
