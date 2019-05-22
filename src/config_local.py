@@ -10,7 +10,7 @@ GITHUB_DEFAULT_SRC_FILES = [
     'test.py',  # used for test purposes only, TODO:  Delete after development complete
     ]
 
-local_recordings_dir_full = '/content/ctu-uhb-ctgdb'
+recordings_dir = '/content/ctu-uhb-ctgdb'
 
 
 def try_remove_python_file(fname):

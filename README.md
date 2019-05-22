@@ -1,15 +1,19 @@
 # CTG_RP
-ML/DL analysis of CTG traces using Recurrence Plot
+ML/DL analysis of Cardiotocography (CTG) traces using Recurrence Plot
 
 This Repo contains Jupyter Notebooks and code to reproduce the results of the paper [Computer-Aided Diagnosis System of Fetal Hypoxia Incorporating Recurrence Plot With Convolutional Neural Network](https://www.frontiersin.org/articles/10.3389/fphys.2019.00255/full)
 
 ## Implementation Details
 
-Jupyter Notebooks (_currently configured to run on Google Colab per below_):
+Key Jupyter Notebooks (_currently configured to run on Google Colab per below_):
 - [CTG_RP_Startup_Config](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Startup_Config.ipynb)
   - Initializes fresh colab instance, downloading source files, packages and dataset
 
-Note: Jupyter Notebooks currently configured to run on Google Colab (see below).
+
+Other Helper Notebooks:
+- [CTG_RP_Display_Denoised](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Display_Denoised.ipynb)
+  - Displays sample denoised signals
+
 
 
 ## Key Dependencies
