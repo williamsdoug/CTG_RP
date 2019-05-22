@@ -5,7 +5,11 @@ This Repo contains Jupyter Notebooks and code to reproduce the results of the pa
 
 ## Implementation Details
 
-Jupyter Notebooks currently configured to run on Google Colab (see below).
+Jupyter Notebooks (_currently configured to run on Google Colab per below_):
+- [CTG_RP_Startup_Config](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Startup_Config.ipynb)
+  - Initializes fresh colab instance, downloading source files, packages and dataset
+
+Note: Jupyter Notebooks currently configured to run on Google Colab (see below).
 
 
 ## Key Dependencies
@@ -22,10 +26,11 @@ Jupyter Notebooks currently configured to run on Google Colab (see below).
     - `pip install pyts`
   - [FastAI V1](https://docs.fast.ai/) library running on [PyTorch](https://pytorch.org/)
     - Used for deep learning
+    - Installed by default on Google Colab
   - [wfdb](https://wfdb.readthedocs.io/en/latest/index.html)
     - Waveform Database Utilities.  Used to read Physionet Recording Files
     - `pip install wfdb`
     
 - Computation:
   - [Google Colab](https://colab.research.google.com)
-    - Jupyter Notebook service withy no-cost access to GPU accelerated instances
+    - Jupyter Notebook service with no-cost access to GPU accelerated instances
