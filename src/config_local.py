@@ -9,8 +9,12 @@ def get_github_files(flist):
         try:
             print('Beginning file download of file', fname)
             if '*' not in fname and '/' not in fname and '?' not in fname:
-                os.remove(fname)
+                print('Beginning file download of file', fname)
+                print(GITHUB_PREFIX+fname)
+                # os.remove(fname)
                 urllib.request.urlretrieve(GITHUB_PREFIX+fname, fname)
+            else:
+                print('Skipping file download of file', fname)
         except:
             print('Download failed for file', fname)
     print('Done')
