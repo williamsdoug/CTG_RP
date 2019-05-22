@@ -5,6 +5,6 @@ This Repo contains Jupyter Notebooks and code to reproduce the results of the pa
 
 ## Implementation Details
 
-Node currenly configured to run on [Google Colab](https://colab.research.google.com).  Deep Learning code uses the higher level [FastAI V1](https://docs.fast.ai/) library running on [PyTorch](https://pytorch.org/)
+Notebooks currenly configured to run on [Google Colab](https://colab.research.google.com).  Deep Learning code uses the higher level [FastAI V1](https://docs.fast.ai/) library running on [PyTorch](https://pytorch.org/)
 
 
