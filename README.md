@@ -11,6 +11,8 @@ Key Jupyter Notebooks (_currently configured to run on Google Colab per below_):
 - [CTG_RP_Generate_Recurrence_Plots](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Generate_Recurrence_Plots.ipynb)
   - Creates individual RP Images
   - _IMAGES_DIR/rp_images_index.json_ contains metadata associated with images for each recording
+- [CTG_RP_Train_Model](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Train_Model.ipynb)
+  - Trains FastAI Model
 
 Other Helper Notebooks:
 - [CTG_RP_Display_Denoised](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Display_Denoised.ipynb)
