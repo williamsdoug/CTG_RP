@@ -119,13 +119,13 @@ def generate_label_file(group, image_dir='images',
                     results.append((os.path.join(image_dir, fname), 1 if label else 0))
         return results
     else:
-        with open(csv_file, 'wt') as outfile:
+        with open(os.path.join(image_dir, csv_file), 'wt') as outfile:
             if header:
                 print(header, file=outfile)
             for v in group.values():
                 for label, all_files in v.items():
                     for fname in all_files:
-                        line = '{}, {}'.format(os.path.join(image_dir, fname), 1 if label else 0)
+                        line = '{}, {}'.format(fname, 1 if label else 0)
                         print(line, file=outfile)
 
 
