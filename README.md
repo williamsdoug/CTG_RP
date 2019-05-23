@@ -8,18 +8,25 @@ This Repo contains Jupyter Notebooks and code to reproduce the results of the pa
 Key Jupyter Notebooks (_currently configured to run on Google Colab per below_):
 - [CTG_RP_Startup_Config](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Startup_Config.ipynb)
   - Initializes fresh colab instance, downloading source files, packages and dataset
+  - [view using nbviewer](https://nbviewer.jupyter.org/github/williamsdoug/CTG_RP/blob/master/CTG_RP_Startup_Config.ipynb)
 - [CTG_RP_Generate_Recurrence_Plots](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Generate_Recurrence_Plots.ipynb)
   - Creates individual RP Images
+  - [view using nbviewer](https://nbviewer.jupyter.org/github/williamsdoug/CTG_RP/blob/master/CTG_RP_Generate_Recurrence_Plots.ipynb)
   - _IMAGES_DIR/rp_images_index.json_ contains metadata associated with images for each recording
 - [CTG_RP_Train_Model](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Train_Model.ipynb)
   - Trains FastAI Model
+  - [view using nbviewer](https://nbviewer.jupyter.org/github/williamsdoug/CTG_RP/blob/master/CTG_RP_Train_Model.ipynb)
 
-Other Helper Notebooks:
+Other Notebooks:
 - [CTG_RP_Display_Denoised](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Display_Denoised.ipynb)
   - Displays sample denoised signals
+  - [view using nbviewer](https://nbviewer.jupyter.org/github/williamsdoug/CTG_RP/blob/master/CTG_RP_Display_Denoised.ipynb)
 - [CTG_RP_Explore_Datasets](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Explore_Datasets.ipynb)
   - Builds Databunch and displays contents
-
+  - [view using nbviewer](https://nbviewer.jupyter.org/github/williamsdoug/CTG_RP/blob/master/CTG_RP_Explore_Datasets.ipynb)
+- [CTG_RP_Train_ResNet_Model](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Train_ResNet_Model.ipynb)
+  - Uses transfer learning to train using ResNet32 model
+  - [view using nbviewer](https://nbviewer.jupyter.org/github/williamsdoug/CTG_RP/blob/master/CTG_RP_Train_ResNet_Model.ipynb)
 
 
 ## Key Dependencies
