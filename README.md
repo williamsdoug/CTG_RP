@@ -10,9 +10,8 @@ Key Jupyter Notebooks (_currently configured to run on Google Colab per below_):
   - Initializes fresh colab instance, downloading source files, packages and dataset
   - [view using nbviewer](https://nbviewer.jupyter.org/github/williamsdoug/CTG_RP/blob/master/CTG_RP_Startup_Config.ipynb)
 - [CTG_RP_Generate_Recurrence_Plots](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Generate_Recurrence_Plots.ipynb)
-  - Creates individual RP Images
+  - Creates individual RP Images.  _IMAGES_DIR/rp_images_index.json_ contains metadata associated with images for each recording
   - [view using nbviewer](https://nbviewer.jupyter.org/github/williamsdoug/CTG_RP/blob/master/CTG_RP_Generate_Recurrence_Plots.ipynb)
-  - _IMAGES_DIR/rp_images_index.json_ contains metadata associated with images for each recording
 - [CTG_RP_Train_Model](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Train_Model.ipynb)
   - Trains FastAI Model
   - [view using nbviewer](https://nbviewer.jupyter.org/github/williamsdoug/CTG_RP/blob/master/CTG_RP_Train_Model.ipynb)
