@@ -14,8 +14,16 @@ Key Jupyter Notebooks (_currently configured to run on Google Colab per below_):
   - Creates individual RP Images.  _IMAGES_DIR/rp_images_index.json_ contains metadata associated with images for each recording
   - [view using nbviewer](https://nbviewer.jupyter.org/github/williamsdoug/CTG_RP/blob/master/CTG_RP_Generate_Recurrence_Plots.ipynb)
 - [CTG_RP_Train_Model](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Train_Model.ipynb)
-  - Trains FastAI Model
+  - Trains FastAI Model.  CTG recordings partitioned into Train and Valid prior to RP generation, such that a single recording is only in Train or Valid, but not both
   - [view using nbviewer](https://nbviewer.jupyter.org/github/williamsdoug/CTG_RP/blob/master/CTG_RP_Train_Model.ipynb)
+- [CTG_RP_Train_Model_Shuffled](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Train_Model_Shuffled.ipynb)
+  - Trains FastAI Model.  CTG recordings partitioned into Train and Valid after RP generation.  RP images with configuration partameters but from same recording may appear in both Train and Valid 
+  - [view using nbviewer](https://nbviewer.jupyter.org/github/williamsdoug/CTG_RP/blob/master/CTG_RP_Train_Model_Shuffled.ipynb)
+
+
+
+
+
 
 Other Notebooks:
 - [CTG_RP_Display_Denoised](https://github.com/williamsdoug/CTG_RP/blob/master/CTG_RP_Display_Denoised.ipynb)
