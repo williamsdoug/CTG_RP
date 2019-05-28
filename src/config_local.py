@@ -9,6 +9,7 @@ GITHUB_DEFAULT_SRC_FILES = [
     'compute_metadata.py',
     'ctg_utils.py',
     'libRP.py',
+    'generate_recurrence_images.py',
     'test.py',  # used for test purposes only, TODO:  Delete after development complete
     ]
 
