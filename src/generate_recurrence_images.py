@@ -125,13 +125,13 @@ def generate_rp_images(recordings_dir, n_dec=4, clip_stage_II=True,
 
 
 # Configure Recurrent Plot Parameters
-def get_recurrence_params():
+def gen_recurrence_params(dimensions=[2], time_delays=[1], percentages=[1,3, 10], use_clip_vals=[False]):
     rp_params = []
 
-    for dimension in [2]:
-        for time_delay in [1]:
-            for percentage in [1,3, 10]:
-                for use_clip in [False]: # [False, True]:
+    for dimension in dimensions:
+        for time_delay in time_delays:
+            for percentage in percentages:
+                for use_clip in use_clip_vals:
                     rp_params.append({'dimension':dimension, 'time_delay':time_delay,
                                       'percentage':percentage, 'use_clip':use_clip})
 
