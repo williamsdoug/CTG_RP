@@ -8,6 +8,7 @@ __pycache__/
 
 local_data/
 images/
+laptop*.py
 
 # Distribution / packaging
 .Python
