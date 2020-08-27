@@ -31,7 +31,8 @@ def create_rp(segment,
         X_rp = rp_norm(X_dist, threshold='percentage_clipped', percentage=percentage)[0]
     else:
         rp = RecurrencePlot(dimension=dimension, time_delay=time_delay,
-                            threshold='percentage_points', percentage=percentage)
+                            #threshold='percentage_points', percentage=percentage)
+                            threshold='point', percentage=percentage)
         X_rp = rp.fit_transform(segment)[0]
 
     if imsize is not None:
